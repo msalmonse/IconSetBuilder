@@ -8,4 +8,4 @@
 
 import Foundation
 
-print("Hello, World!")
+let source = SourceImage(CommandLine.arguments[1])
