@@ -11,6 +11,7 @@
 		C48492C9234C775000AF8292 /* SourceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48492C8234C775000AF8292 /* SourceImage.swift */; };
 		C48492D1234C79A200AF8292 /* IconSetBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48492D0234C79A200AF8292 /* IconSetBuilderTests.swift */; };
 		C48492D6234C79B500AF8292 /* SourceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48492C8234C775000AF8292 /* SourceImage.swift */; };
+		C4F04203234CAB9700652E8D /* IconSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F04202234CAB9700652E8D /* IconSizes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,7 @@
 		C48492D0234C79A200AF8292 /* IconSetBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSetBuilderTests.swift; sourceTree = "<group>"; };
 		C48492D2234C79A200AF8292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C48492D7234C7EE300AF8292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		C4F04202234CAB9700652E8D /* IconSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSizes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				C48492D7234C7EE300AF8292 /* Info.plist */,
 				C48492BF234C74EA00AF8292 /* main.swift */,
 				C48492C8234C775000AF8292 /* SourceImage.swift */,
+				C4F04202234CAB9700652E8D /* IconSizes.swift */,
 			);
 			path = IconSetBuilder;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F04203234CAB9700652E8D /* IconSizes.swift in Sources */,
 				C48492C9234C775000AF8292 /* SourceImage.swift in Sources */,
 				C48492C0234C74EA00AF8292 /* main.swift in Sources */,
 			);
