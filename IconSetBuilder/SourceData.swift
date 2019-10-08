@@ -9,7 +9,7 @@
 import Foundation
 import ImageIO
 
-struct SourceImage {
+struct SourceData {
     let data: Data
     let url: URL
 

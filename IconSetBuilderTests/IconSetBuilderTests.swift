@@ -19,7 +19,7 @@ class IconSetBuilderTests: XCTestCase {
     }
 
     func testSourceImage() {
-        let source = SourceImage("/Users/mesa/Downloads/mac-pro-select-hero-201711.jpeg")
+        let source = SourceData("/Users/mesa/Downloads/mac-pro-select-hero-201711.jpeg")
         XCTAssertNotNil(source)
         print(source?.data.count ?? -1)
     }
