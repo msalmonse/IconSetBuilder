@@ -1,0 +1,11 @@
+.DS_store
+
+## User settings
+IconSetBuilder.xcodeproj/project.xcworkspace/
+IconSetBuilder.xcodeproj/xcuserdata/
+IconSetBuilder.xcodeproj/xcshareddata/
+## previews
+IconSetBuilder/Preview\ Content/
+IconSetBuilder/iconGen_ColourViewer*/
+## app icons
+iconGen*/

@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C48492BC234C74EA00AF8292 /* IconSetBuilder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IconSetBuilder; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48492BF234C74EA00AF8292 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C48492C6234C751B00AF8292 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		C48492B3234C74E900AF8292 = {
 			isa = PBXGroup;
 			children = (
+				C48492C6234C751B00AF8292 /* README.md */,
 				C48492BE234C74EA00AF8292 /* IconSetBuilder */,
 				C48492BD234C74EA00AF8292 /* Products */,
 			);
@@ -72,6 +74,7 @@
 				C48492B8234C74E900AF8292 /* Sources */,
 				C48492B9234C74E900AF8292 /* Frameworks */,
 				C48492BA234C74E900AF8292 /* CopyFiles */,
+				C48492C7234C756F00AF8292 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -114,6 +117,26 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C48492C7234C756F00AF8292 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swiftlint\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C48492B8234C74E900AF8292 /* Sources */ = {
