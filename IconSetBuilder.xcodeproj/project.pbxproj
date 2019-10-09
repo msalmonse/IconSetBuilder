@@ -12,6 +12,10 @@
 		C48492D1234C79A200AF8292 /* IconSetBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48492D0234C79A200AF8292 /* IconSetBuilderTests.swift */; };
 		C48492D6234C79B500AF8292 /* SourceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48492C8234C775000AF8292 /* SourceData.swift */; };
 		C4F04203234CAB9700652E8D /* IconSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F04202234CAB9700652E8D /* IconSizes.swift */; };
+		C4F04205234CEF1900652E8D /* ProcessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F04204234CEF1900652E8D /* ProcessData.swift */; };
+		C4F04207234DA4E500652E8D /* ResizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F04206234DA4E500652E8D /* ResizeImage.swift */; };
+		C4F04209234DAB7200652E8D /* WriteAsPNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F04208234DAB7200652E8D /* WriteAsPNG.swift */; };
+		C4F0420B234DAE3600652E8D /* CreateDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F0420A234DAE3600652E8D /* CreateDestination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +40,10 @@
 		C48492D2234C79A200AF8292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C48492D7234C7EE300AF8292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		C4F04202234CAB9700652E8D /* IconSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSizes.swift; sourceTree = "<group>"; };
+		C4F04204234CEF1900652E8D /* ProcessData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessData.swift; sourceTree = "<group>"; };
+		C4F04206234DA4E500652E8D /* ResizeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImage.swift; sourceTree = "<group>"; };
+		C4F04208234DAB7200652E8D /* WriteAsPNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteAsPNG.swift; sourceTree = "<group>"; };
+		C4F0420A234DAE3600652E8D /* CreateDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDestination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +86,14 @@
 		C48492BE234C74EA00AF8292 /* IconSetBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				C4F04202234CAB9700652E8D /* IconSizes.swift */,
 				C48492D7234C7EE300AF8292 /* Info.plist */,
 				C48492BF234C74EA00AF8292 /* main.swift */,
+				C4F0420A234DAE3600652E8D /* CreateDestination.swift */,
+				C4F04204234CEF1900652E8D /* ProcessData.swift */,
+				C4F04206234DA4E500652E8D /* ResizeImage.swift */,
+				C4F04208234DAB7200652E8D /* WriteAsPNG.swift */,
 				C48492C8234C775000AF8292 /* SourceData.swift */,
-				C4F04202234CAB9700652E8D /* IconSizes.swift */,
 			);
 			path = IconSetBuilder;
 			sourceTree = "<group>";
@@ -206,8 +218,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F04203234CAB9700652E8D /* IconSizes.swift in Sources */,
+				C4F04209234DAB7200652E8D /* WriteAsPNG.swift in Sources */,
+				C4F04205234CEF1900652E8D /* ProcessData.swift in Sources */,
+				C4F0420B234DAE3600652E8D /* CreateDestination.swift in Sources */,
 				C48492C9234C775000AF8292 /* SourceData.swift in Sources */,
 				C48492C0234C74EA00AF8292 /* main.swift in Sources */,
+				C4F04207234DA4E500652E8D /* ResizeImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +357,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -352,7 +368,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
