@@ -19,7 +19,7 @@ Usage:
     exit(0)
 }
 
-let device = CommandLine.arguments[1]
+let device = (CommandLine.arguments[1]).lowercased()
 let url = URL(fileURLWithPath: CommandLine.arguments[2])
 let baseName = url.deletingPathExtension().lastPathComponent
 let source = SourceData(url)
