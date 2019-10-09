@@ -13,10 +13,10 @@ struct SourceData {
     let data: Data
     let url: URL
 
-    init?(_ name: String) {
-        self.url = URL(fileURLWithPath: name)
+    init?(_ url: URL) {
+        self.url = url
         do {
-            self.data = try Data(contentsOf: self.url)
+            self.data = try Data(contentsOf: url)
         } catch {
             print(error)
             return nil
