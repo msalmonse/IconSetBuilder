@@ -15,7 +15,7 @@ enum Multipliers {
 
 let iconSizes: [String: [Multipliers]] = [
     "iphone": [ .at23(20), .at23(29), .at23(40), .at23(60) ],
-    "ipad": [ .at12(20), .at12(29), .at12(40), .at12(76), .at12(83.5) ],
+    "ipad": [ .at12(20), .at12(29), .at12(40), .at12(76), .at2(83.5) ],
     "mac": [ .at12(16), .at12(32), .at12(128), .at12(256), .at12(512) ],
     "watch": [
         .at2(24), .at2(27.5), .at23(29), .at2(40), .at2(44),
